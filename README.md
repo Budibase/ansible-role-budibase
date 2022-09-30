@@ -26,7 +26,7 @@ The playbook below can be used as a guide for your own playbook.
         - budibase.budibase
 
 Inside `vars/main.yml` add the variables below with your own values:
-
+    budibase_custom_domain: mybudibase.domain.com
     budibase_jwt_secret: d953c4ea298f122721a701551
     budibase_minio_access_key: 6250f5ff106548bf972eba689af50fd4
     budibase_minio_secret_key: e58493ec31da4a6a91f79fa46312daa2
